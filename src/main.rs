@@ -1,9 +1,21 @@
 fn main() {
-    // Default is f64, because in modern CPU's
-    // f64 is as fast as f32 and has more precision
-    let float64 = 3.0;
-    println!("float64 is {}", float64);
+    // addition
+    let sum = 5 + 10;
+    println!("sum is {}", sum);
 
-    let float32: f32 = 3.0;
-    println!("float32 is {}", float32);
+    // subtraction
+    let difference = 10 - 5;
+    println!("difference is {}", difference);
+
+    // multiplication
+    let product = 10 * 5;
+    println!("product is {}", product);
+
+    // division
+    let quotient = 10/5;
+    println!("quotient is {}", quotient);
+
+    // remainder
+    let remainder = 10%5;
+    println!("remainder is {}", remainder);
 }
