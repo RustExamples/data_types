@@ -1,7 +1,10 @@
 fn main() {
-    let yes = true;
-    println!("yes is {}", yes);
+    let c = 'c';
+    println!("c is {}", c);
 
-    let no:bool = false;
-    println!("no is {}", no);
+    let z = 'Z';
+    println!("z is {}", z);
+
+    let cat = '😻'; 
+    println!("cat is {}", cat);
 }
