@@ -1,18 +1,13 @@
 fn main() {
-    let tup: (i32, f64, u8) = (10, 3.14, 8);
+    // Arrays store fixed elements of same type and can't grow or shrink
+    let array = [1, 2, 3, 4, 5];
 
-    // This is called "destructuring"
-    let (x, y, z) = tup;
+    let one = array[0];
+    println!("one is {}", one);
 
-    // Tuples annotation is optional
-    let tup = (10, 3.14, 8);
+    let months =  ["January", "February", "March", "April", "May", "June", "July",
+              "August", "September", "October", "November", "December"];
 
-    // Tuple values can be accessed by their index
-    let x = tup.0;
-
-    let y = tup.1;
-
-    let z = tup.2;
-
-    println!("x is {}, y is {}, z is {}", x, y, z);
+    let jan = months[0];
+    println!("jan is {}", jan);
 }
